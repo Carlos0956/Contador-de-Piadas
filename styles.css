@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6f51c1;
+}
+
+.container {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+.piada {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #9053f2; /* Coral */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #806f6f; /* Tom mais escuro de coral no hover */
+}
+
+.escondido {
+    display: none;
+}
